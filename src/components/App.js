@@ -1,12 +1,15 @@
 import React from "react";
+import NavBar from "./NavBar";
+import Home from "./Home";
+import About from "./About"
 
 function App() {
   return (
-    <div>
+    <React.Fragment>
       <NavBar />
       <Home />
       <About />
-    </div>
+    </React.Fragment>
   );
 }
 
